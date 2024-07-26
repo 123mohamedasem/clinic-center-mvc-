@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .services {
+            display: inline-block;
+            text-align: left;
+        }
+
+            .services div {
+                background-color: #fff;
+                border: 1px solid #ddd;
+                padding: 15px 20px;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+        .appointment-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+            .appointment-button:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Hospital</h1>
+        <p>Thank you for choosing our hospital for your healthcare needs.</p>
+        <p>Here, we strive to provide the highest quality medical care to our patients.</p>
+        <p>Learn more about our services and specialties:</p>
+        <div class="services">
+            <div>Internal Medicine</div>
+            <div>Pediatrics</div>
+            <div>Surgery</div>
+        </div>
+        <p>If you have any questions or need assistance, please don't hesitate to contact us.</p>
+        <a href="https://localhost:7192/Doctor/Bookappointment" class="appointment-button">Book Appointment</a>
+    </div>
+</body>
+</html>
